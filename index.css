@@ -1,0 +1,86 @@
+
+.box{
+    border: 5px solid black;
+    width: 20%;
+    height: 50%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    padding-top: 3%;
+    font-family: Serif;
+    border-radius: 30px;
+    padding-bottom: 3%;
+
+}
+.login{
+    text-align: center;
+    margin-bottom: 20px;
+}
+body{
+    background : linear-gradient(90deg, lime , yellow);
+}
+.welcome{
+    text-align: center;
+    margin-top: 7%;
+    font-family: Serif;
+    font-size: larger;
+}
+
+#input-login{
+    border-color:black;
+    background-color: rgb(28, 255, 213);
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+}
+#login {
+    margin-top: 10%;
+    background-color: violet;
+    font-family: Serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+#register{
+    text-decoration: none;
+    margin-left: 0%;
+}
+#registerandforgetpassword{
+    font-family: Serif;
+    padding-bottom: 2%;
+    display: flex;
+    padding-top: 5%;
+}
+#forgetpassword{
+    text-decoration: none;
+    margin-left: auto;
+}
+#center{
+    text-align: center;
+}
+label{
+    font-size: 25px;
+}
+#centerbox{
+    margin: auto;
+}
+
+
+
+
+.welcome h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 4s steps(40, end)
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
